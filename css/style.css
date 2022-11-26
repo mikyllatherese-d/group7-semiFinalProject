@@ -5,6 +5,10 @@
     margin: 0;
 }
 
+.body {
+    background-color: #f0af1b;
+}
+
 .header {
     display: flex;
     flex-flow: row nowrap;
@@ -12,7 +16,7 @@
     align-items: center;
     padding-right: 50px;
     font-size: 30px;
-    padding: 50px 50px;
+    padding: 50px 50px 50px;
 }
 
 .menu {
@@ -39,6 +43,7 @@
     background-image: url("../images/stoNino.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
 }
 
 .createAnAccount button {
@@ -65,4 +70,44 @@
 
 .small-slogan {
     font-size: 50px;
+}
+
+.ticketing {
+    margin-top: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px 0 10px 0;
+    margin-top: 100px;
+    margin-right: 250px;
+    margin-left: 250px;
+    margin-bottom: 50px;
+}
+
+.book-tickets button {
+    background-color: #f0af1b;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 30px;
+}
+
+.footer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    color: black;
+    background-color: #f0af1b;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 72px;
+    font-size: 30px;
 }
