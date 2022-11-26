@@ -1,0 +1,68 @@
+* {
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 50px;
+    font-size: 30px;
+    padding: 50px 50px;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.menu li {
+    padding: 0 5px;
+}
+
+.logo img {
+    max-width: 150px;
+    height: auto;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.bg-purpose {
+    background-image: url("../images/stoNino.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.createAnAccount button {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 30px;
+}
+
+.slogan {
+    display: grid;
+    place-content: center;
+    text-align: center;
+    color: white;
+}
+
+.big-slogan {
+    font-size: 90px;
+}
+
+.small-slogan {
+    font-size: 50px;
+}
