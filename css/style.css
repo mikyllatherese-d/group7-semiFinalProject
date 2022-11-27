@@ -23,15 +23,27 @@
     display: flex;
     justify-content: flex-end;
     list-style: none;
+    gap: 70px;
 }
 
 .menu li {
     padding: 0 5px;
 }
+.menu a:hover{
+    color: #f0af1b;
+}
 
 .logo img {
     max-width: 150px;
     height: auto;
+}
+
+.logo {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    font-size: 40px;
+    color: white;
 }
 
 .menu a {
@@ -55,6 +67,10 @@
     text-decoration: none;
     font-size: 20px;
     border-radius: 30px;
+}
+
+.createAnAccount button:hover {
+    color: #f0af1b;
 }
 
 .slogan {
@@ -87,6 +103,7 @@
     margin-bottom: 50px;
 }
 
+
 .book-tickets button {
     background-color: #f0af1b;
     border: none;
@@ -107,7 +124,30 @@
     background-color: #f0af1b;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 80px;
-    padding-bottom: 72px;
+    padding-top: 50px;
+    padding-bottom: 48px;
     font-size: 30px;
 }
+
+.footer-left {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.footer-left img {
+    max-width: 100px;
+    height: auto;
+}
+
+.footer-right {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.footer-right img {
+    max-width: 100px;
+    height: auto;
+}
+
