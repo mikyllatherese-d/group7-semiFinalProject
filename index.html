@@ -13,6 +13,7 @@
         <div class="header">
             <div class="logo">
                 <img src="./images/CeBuCket_Logo.png">
+                <p>CEBUCKET</p>
             </div>
             <nav>
                 <ul class="menu">
@@ -22,7 +23,7 @@
                 </ul>
             </nav>
             <div class="createAnAccount">
-                <button>Create an Account</button>
+                <button herf="">Create an Account</button>
             </div>
         </div>
 
@@ -39,7 +40,8 @@
 
         <div class="ticketing">
             <div class="from">
-                <select name="place" id="place">
+                <select name="place" id="place" required>
+                    <option id="hideThis" value="" disabled selected hidden>From</option>
                     <option value="urgello">Urgello</option>
                     <option value="pardo">Pardo</option>
                     <option value="talamban">Talamban</option>
@@ -48,6 +50,7 @@
             </div>
             <div class="to">
                 <select name="place" id="place">
+                    <option value="" disabled selected hidden>To</option>
                     <option value="parkmall">Parkmall</option>
                     <option value="smCebu">SM Cebu</option>
                     <option value="colon">Colon</option>
@@ -55,8 +58,8 @@
                 </select>
             </div>
             <div class="date">
-                <label for="date">Date</label>
-                <input type="date" name="date" id="date">
+                <label for="appt">Date</label>
+                <input type="date" name="date" id="date" placeholder="Date" onfocus="(this.type='date')">
                 </div>
             <div class="time">
                 <label for="appt">Time</label>
@@ -64,18 +67,19 @@
                 </select>
             </div>
             <div class="book-tickets">
-                <button>Book tickets</button>
+                <button href="">Book tickets</button>
             </div>
         </div>
-        <br>
         <br>
     </div>
 
     <div class="footer">
         <div class="footer-left">
+            <img src="./images/travelers-logo.png">
             <p>By travelers, for travelers</p>
         </div>
         <div class="footer-right">
+            <img src="./images/cp-icon.png">
             <p>We are here for you 24/7</p>
         </div>
     </div>
