@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
+    <title>CeBuCket - Home</title>
     <link rel="stylesheet" href="./css/style.css">
     <script src="./js/index.js"></script>
 </head>
@@ -23,7 +23,7 @@
                 </ul>
             </nav>
             <div class="createAnAccount">
-                <button herf="">Create an Account</button>
+                <a href="">Create an Account</a>
             </div>
         </div>
 
@@ -40,8 +40,9 @@
 
         <div class="ticketing">
             <div class="from">
+                <img src="./images/icon-from.png">
                 <select name="place" id="place" required>
-                    <option id="hideThis" value="" disabled selected hidden>From</option>
+                    <option id="hideThis" value="" disabled selected hidden>From:</option>
                     <option value="urgello">Urgello</option>
                     <option value="pardo">Pardo</option>
                     <option value="talamban">Talamban</option>
@@ -49,8 +50,9 @@
                 </select>
             </div>
             <div class="to">
+                <img src="./images/to-icon.png">
                 <select name="place" id="place">
-                    <option value="" disabled selected hidden>To</option>
+                    <option value="" disabled selected hidden>To:</option>
                     <option value="parkmall">Parkmall</option>
                     <option value="smCebu">SM Cebu</option>
                     <option value="colon">Colon</option>
@@ -58,16 +60,15 @@
                 </select>
             </div>
             <div class="date">
-                <label for="appt">Date</label>
-                <input type="date" name="date" id="date" placeholder="Date" onfocus="(this.type='date')">
-                </div>
+                <label for="appt">Date:</label>
+                <input type="date" name="date" id="date">
+            </div>
             <div class="time">
-                <label for="appt">Time</label>
+                <label for="appt">Time:</label>
                 <input type="time" id="appt" name="appt">
-                </select>
             </div>
             <div class="book-tickets">
-                <button href="">Book tickets</button>
+               <a href="">Book tickets</a>
             </div>
         </div>
         <br>
