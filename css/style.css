@@ -90,16 +90,17 @@
     margin-top: 50px;
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     background-color: white;
     border-radius: 30px;
-    padding: 15px 20px 15px 20px;
+    padding: 15px 0 15px 0;
     margin-top: 100px;
-    margin-right: 250px;
-    margin-left: 250px;
+    margin-right: 400px;
+    margin-left: 400px;
     margin-bottom: 50px;
     font-size: 20px;
+    gap: 100px;
 }
 
 .book-tickets a {
@@ -161,7 +162,7 @@
     gap: 20px;
     border-right: 2px solid grey;
     margin-right: -100px;
-    padding-right: 50px;
+    padding-right: 20px;
 }
 
 .from img {
@@ -172,15 +173,12 @@
 .date {
     border-right: 2px solid grey;
     margin-right: -100px;
-    padding-right: 50px;
-    margin-left: -50px;
+    padding-right: 30px;
+    margin-left: 30px;
 }
 
 .time {
-    border-right: 2px solid grey;
-    margin-right: -100px;
-    padding-right: 50px;
-    margin-left: -50px;
+    margin-right: -90px;
 }
 
 .date input {
