@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgot password?</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        body{
+            display: flex;
+            min-height: 100vh;
+            justify-content: center;
+            align-items: center;
+        }
+        .forgot input[type=email]{
+            font-size: 20px;
+            width: 80%;
+            padding: 0.7em;
+            border-radius: 5px;
+        }
+        .forgot{
+            box-shadow: 0 0 8px #4f97d1;
+            padding: 2em;
+        }
+        p{
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-size: 20px;
+        }
+        #cancel{
+        margin-left: 650px;
+        }
+        .forgot input[type=button]{
+            font-size: 20px;
+            width: 9%;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="forgot">
+        <h1>Find Your Account</h1>
+        <hr>
+        <p>Please enter your email address or mobile number to search for your account</p>
+        <input type="email"  id="email" placeholder="Enter address or mobile number">
+        <br>
+        <input type="button" name="" id="cancel" value="cancel">
+        <input type="button" name="" id="search" value="search">
+        
+    </div>
+</body>
+</html>
