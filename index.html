@@ -39,26 +39,17 @@
         </div>
 
         <div class="ticketing">
-            <div class="from">
-                <img src="./images/icon-from.png">
-                <select name="place" id="place" required>
-                    <option id="hideThis" value="" disabled selected hidden>From:</option>
-                    <option value="urgello">Urgello</option>
-                    <option value="pardo">Pardo</option>
-                    <option value="talamban">Talamban</option>
-                    <option value="colon">Colon</option>
-                </select>
-            </div>
-            <div class="to">
+            <div class="from" onclick="printOptions()">
                 <img src="./images/to-icon.png">
-                <select name="place" id="place">
-                    <option value="" disabled selected hidden>To:</option>
-                    <option value="parkmall">Parkmall</option>
-                    <option value="smCebu">SM Cebu</option>
-                    <option value="colon">Colon</option>
-                    <option value="capitol">Capitol</option>
+                <select name="place" id="place" required>
+                    <option id="hideThis" value="" disabled selected hidden>From - To:</option>
+                    <option value="urgello">Urgello - Parkmall</option>
+                    <option value="pardo">Pardo - SM Cebu</option>
+                    <option value="talamban">Talamban - Colon</option>
+                    <option value="colon">Colon - Capitol</option>
                 </select>
             </div>
+
             <div class="date">
                 <label for="appt">Date:</label>
                 <input type="date" name="date" id="date">

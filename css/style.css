@@ -154,11 +154,6 @@
     font-size: 20px;
 }
 
-.to select {
-    border: none;
-    font-size: 20px;
-}
-
 .from {
     display: flex;
     flex-flow: row nowrap;
@@ -170,22 +165,6 @@
 }
 
 .from img {
-    max-width: 30px;
-    height: auto;
-}
-
-.to {
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
-    gap: 20px;
-    border-right: 2px solid grey;
-    margin-right: -100px;
-    padding-right: 50px;
-    margin-left: -50px;
-}
-
-.to img {
     max-width: 30px;
     height: auto;
 }
