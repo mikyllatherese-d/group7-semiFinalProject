@@ -1,0 +1,192 @@
+* {
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+.body {
+    background-color: #f0af1b;
+}
+
+.header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 50px;
+    font-size: 30px;
+    padding: 50px 50px 50px;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 70px;
+}
+
+.menu li {
+    padding: 0 5px;
+}
+.menu a:hover{
+    color: #f0af1b;
+}
+
+.logo img {
+    max-width: 150px;
+    height: auto;
+}
+
+.logo {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+    gap: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.bg-purpose {
+    background-image: url("../images/stoNino.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.createAnAccount a{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 25px 25px 25px 25px;
+    border-radius: 100px;
+}
+
+.createAnAccount a:hover {
+    color: #f0af1b;
+}
+
+.slogan {
+    display: grid;
+    place-content: center;
+    text-align: center;
+    color: white;
+}
+
+.big-slogan {
+    font-size: 90px;
+}
+
+.small-slogan {
+    font-size: 50px;
+}
+
+.ticketing {
+    margin-top: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    border-radius: 30px;
+    padding: 15px 0 15px 0;
+    margin-top: 100px;
+    margin-right: 400px;
+    margin-left: 400px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    gap: 100px;
+}
+
+.book-tickets a {
+    text-decoration: none;
+    background-color: #f0af1b;
+    color: white;
+    padding: 15px 15px 15px 15px;
+    border-radius: 100px;
+}
+
+
+.footer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    color: black;
+    background-color: #f0af1b;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 52px;
+    font-size: 30px;
+}
+
+.footer-left {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-left img {
+    max-width: 100px;
+    height: auto;
+}
+
+.footer-right {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-right img {
+    max-width: 100px;
+    height: auto;
+}
+
+.from select {
+    border: none;
+    font-size: 20px;
+}
+
+.from {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 20px;
+    border-right: 2px solid grey;
+    margin-right: -100px;
+    padding-right: 20px;
+}
+
+.from img {
+    max-width: 30px;
+    height: auto;
+}
+
+.date {
+    border-right: 2px solid grey;
+    margin-right: -100px;
+    padding-right: 30px;
+    margin-left: 30px;
+}
+
+.time {
+    margin-right: -90px;
+}
+
+.date input {
+    border: none;
+    font-size: 20px;
+}
+
+.time input {
+    border: none;
+    font-size: 20px;
+}
