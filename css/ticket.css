@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    background-color: rgb(254, 184, 55);
+    align-items: center;
+    justify-content: space-between;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.header img {
+    width: 100px;
+}
+
+.header h1 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.header a {
+    margin-right: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+body {
+    background-image: url(../images/bgimage.webp);
+    background-attachment: fixed;
+    background-position: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: inline-flex;
+    color: white;
+}
+
+.infos {
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 350px;
+}
+
+.infos h6 {
+    color: red;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+.infos input {
+    border: solid black 1.5px;
+    width: 250px;
+    height: 25px;
+}
+
+.route {
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.route h6 {
+    color: red;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+.route select {
+    text-align: center;
+    border: solid black 1.5px;
+    width: 200px;
+    height: 30px;
+}
+
+.route input {
+    width: 198px;
+    border: solid black 1.5px;
+    height: 25px;
+}
+
+.transaction {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    font-family: sans-serif;
+    width: 300px;
+}
+
+#result {
+    float: right;
+    margin-top: -15px;
+}
+
+#res {
+    float: right;
+    margin-top: -16px;
+}
+
+.transaction input {
+    width: 200px;
+    height: 26px;
+}
+
+.transaction button {
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: #56aeff;
+    cursor: pointer;
+    padding: 3px;
+    height: 30px;
+    width: 80px;
+    border: solid #56aeff 2px;
+    border-radius: 7px;
+}
+
+.transaction h4 {
+    font-weight: lighter;
+}
+
+.total {
+    float: right;
+    margin-top: -16px;
+}
