@@ -31,7 +31,7 @@ body {
     background-image: url(../images/bgimage.webp);
     background-attachment: fixed;
     background-position: 0px;
-    background-size: auto;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
