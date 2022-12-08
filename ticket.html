@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Booking</title>
+    <link rel="stylesheet" href="css/ticket.css">
+    <script src="ticket.js"></script>
+</head>
+<header class="header">
+    <img src="images/CeBuCket_Logo.png">
+    <h1>cebucket booking</h1>
+    <a href="#">Home</a>
+</header>
+<body>
+    <div class="container">
+        <div class="infos">
+            <h2>Personal<br>Information</h2>
+            <h6>*Required</h6><br>
+            <h3>Email:</h3>
+            <input type="text" placeholder="  Example@gmail.com"><br>
+            <br>
+            <h3>Name:</h3>
+            <input type="text" placeholder="  Last Name, First Name"><br>
+            <br>
+            <h3>Home Address:</h3>
+            <input type="text" placeholder="  Your home address"><br>
+            <br>
+            <h3>Phone Number:</h3>
+            <input type="number" placeholder="   Your Phone Number"><br>
+            <br>
+            <h3>Age:</h3>
+            <input type="number" placeholder="   Your Age"><br>
+            <br>
+        </div>
+
+        <div class="route">
+            <h2>Route and Discount</h2>
+            <h6>*Required</h6><br>
+            <h3>From - To:</h3>
+            <select name="location" id="where" onclick="myFunction()">
+                <option></option>
+                <option value="P 25.00" id="route1">Urgello - Parkmall</option>
+                <option value="P 20.00" id="route2">Pardo - SM City</option>
+                <option value="P 26.00" id="route3">Talamban - Colon</option>
+                <option value="P 25.00" id="route4">Colon - Capitol</option>
+            </select><br>
+            <br>
+            <h3>For Discount:</h3>
+            <select name="subtract" id="discount" onclick="myFunc()">
+                <option value=""></option>
+                <option value="- P 5.00">Student</option>
+                <option value="- P 5.00">Senior Citizen</option>
+                <option value="- P 5.00">PWD</option>
+                <option value="- P 0.00">None...</option>
+            </select><br>
+            <br>
+            <h3>Time:</h3>
+            <input type="time"><br>
+            <br>
+            <h2>Payment:</h2>
+                <div class="transaction">
+                    <h4>Ticket (1 person only)<h5 id="result"></h5></h4>
+                    <h4>Discount<h5 id="res"></h5></h4>
+                    <h4>Total <h5 class="total">P 20.00</h5> </h4>
+                    <br>
+                    <h4 class="payment">Payment Method:</h4>
+                    <p>GCash</p>
+                    <input type="number" placeholder=" Your GCash Number">
+                    <button onclick="bookNow()">Book Now</a></button> 
+                </div>
+        </div>
+    </div>
+
+
+
+</body>
+</html>
