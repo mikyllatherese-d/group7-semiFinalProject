@@ -249,94 +249,92 @@
     margin-bottom: 20px;
 }
 
-body.how-it-works {
-    background-color:  #56aeff;
-   }
-
-.header-how-it-works h1{
-font-size: 90px;
-background-image: url(../images/wallpaper/1.jpeg);
-background-size: cover;
-text-align: center;
-color: white;
-padding: 200px;
-border-radius: 80px;
-height: 40px;
-background-position: center center;
-
-}
-
-
-.button-upper-part  {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-evenly;
-    margin-left: 100px;
-    margin: 100px;
-    color: moccasin;
-    border: transparent;
-    font-size: 30px;
-}
-
-.button-lower-part {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-evenly;  
-    color:  moccasin;
-  margin-left: 100px;
-  border: transparent;
-  font-size: 30px;
-}
-
-.button1 button{
+.how-it-works {
     background-color: #56aeff;
-    width: 330px;
-    height: 40px;
-    margin-left: -30px;
-  color: white;
-  margin-left: 60px;
-  border: transparent;
-  font-size: 25px;
-  background-image: url(../images/wallpaper/3.png);
-  background-repeat: no-repeat ;
- 
-}
-.button2 button{
-    background-color:#56aeff;
-    width: 400px;
-    height: 40px;
-    margin-right: -40px;
     color: white;
-    background-image: url(../images/wallpaper/3.png);
-    background-repeat: no-repeat ;
-    margin-left: 70px;
-    border: transparent;
+}
+
+.how-header {
+    background-image: url(../images/wallpaper/1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.how-header h1 {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.how-content {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    margin-top: 50px;
+    font-size: 20px;
+    gap: 20px;
+}
+
+.bus-booking-content {
+    margin-right: 267px;
+    margin-left: 267px;
+    border: solid;
+    border-color: white;
+    padding: 30px 300px 30px 70px;
+    border-radius: 15px;
+}
+
+.bus-booking-content summary:hover {
+    color: #f0af1b;
+}
+
+.how-ticketing-content {
+    margin-right: 267px;
+    margin-left: 267px;
+    border: solid;
+    border-color: white;
+    padding: 30px 70px 30px 70px;
+    border-radius: 15px;
+}
+
+.how-ticketing-content summary:hover {
+    color: #f0af1b;
+}
+
+.how-payment-content {
+    margin-right: 267px;
+    margin-left: 267px;
+    border: solid;
+    border-color: white;
+    padding: 30px 70px 30px 70px;
+    border-radius: 15px;
+}
+
+.how-payment-content summary:hover {
+    color: #f0af1b;
+}
+
+.how-check-in-content {
+    margin-right: 267px;
+    margin-left: 267px;
+    border: solid;
+    border-color: white;
+    padding: 30px 70px 30px 70px;
+    border-radius: 15px;
+}
+
+.how-check-in-content summary:hover {
+    color: #f0af1b;
+}
+
+.how-footer {
+    text-align: center;
+    color: white;
     font-size: 25px;
-  
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: small;
 }
-.button3 button{
-    background-color:#56aeff; 
-    width: 250px;
-    height: 40px;
-    margin-right: 80px;
-    color: white;
-    background-image: url(../images/wallpaper/3.png);
-    background-repeat: no-repeat ;
-    margin-left: 80px;
-    border: transparent;
-    font-size: 25px;
- 
-}
-.button4 button{
-    background-color:#56aeff;  
-    width: 450px;
-    height: 40px;
-   margin-left: 20px ;
-    margin-right: 100px;
-    color: white;
-    background-image: url(../images/wallpaper/3.png);
-    background-repeat: no-repeat ;
-    margin-left: 80px;
-    border: transparent;
-    font-size:25px;
-}
+
