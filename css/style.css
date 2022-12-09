@@ -259,13 +259,15 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
 }
 
 .how-header h1 {
-    font-size: 50px;
+    font-size: 70px;
     text-align: center;
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 90px;
+    padding-bottom: 90px;
 }
 
 .how-content {
@@ -273,6 +275,7 @@
     flex-direction: column;
     align-items:flex-start;
     margin-top: 50px;
+    margin-left: 5px;
     font-size: 20px;
     gap: 20px;
 }
@@ -282,7 +285,7 @@
     margin-left: 267px;
     border: solid;
     border-color: white;
-    padding: 30px 300px 30px 70px;
+    padding: 30px 500px 30px 70px;
     border-radius: 15px;
 }
 
@@ -299,8 +302,20 @@
     border-radius: 15px;
 }
 
+.how-ticketing-content summary {
+    margin-right: 465px;
+}
+
 .how-ticketing-content summary:hover {
     color: #f0af1b;
+}
+
+.how-first-content {
+    margin-right: -500px;
+}
+
+.how-first-content p {
+    padding-right: 100px;
 }
 
 .how-payment-content {
@@ -316,6 +331,10 @@
     color: #f0af1b;
 }
 
+.how-payment-content summary {
+    margin-right: 355px;
+}
+
 .how-check-in-content {
     margin-right: 267px;
     margin-left: 267px;
@@ -325,6 +344,9 @@
     border-radius: 15px;
 }
 
+.how-check-in-content summary {
+    margin-right: 330px;
+}
 .how-check-in-content summary:hover {
     color: #f0af1b;
 }
@@ -337,4 +359,3 @@
     margin-bottom: 20px;
     font-size: small;
 }
-
